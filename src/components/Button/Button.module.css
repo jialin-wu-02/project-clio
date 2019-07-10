@@ -1,0 +1,60 @@
+/* base of button */
+
+/* rgb(0, 122, 255) */
+
+.btn {
+    background-color: #eeeeee;
+    border: none;
+    transition: all .2s;
+    cursor: pointer
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #dddddd;
+    transform: translateY(-8%);
+}
+
+.btn:active {
+    background-color: #cccccc;
+    transform: translateY(-2%);
+}
+
+/* sizes of button */
+
+.sm {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.md {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.lg {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+/* types of button */
+
+.border {
+    background-color: transparent;
+    border: 2px solid rgb(0, 122, 255);
+    color: rgb(0, 122, 255)
+}
+
+.border:hover {
+    background-color: rgb(0, 122, 255);
+    color: white;
+}

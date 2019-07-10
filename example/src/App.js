@@ -1,12 +1,19 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'project-clio'
+import { Button } from 'project-clio'
+import styles from './App.module.css';
+
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
+      <div className={styles.main}>
+        <p>  </p>
+        <Button size="md" type="border" />
+        <p>  </p>
+        <Button size="sm" />
+        <p>  </p>
+        <Button size="lg" />
       </div>
     )
   }
