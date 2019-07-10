@@ -23,7 +23,8 @@ const Button = ({size, type}) => {
 
 Button.propType = {
   type: PropTypes.oneOf(['border', 'expand']),
-  size: PropTypes.oneOf(['sm', 'md', 'lg'])
+  size: PropTypes.oneOf(['sm', 'md', 'lg']),
+  color: PropTypes.string
 }
 
 export default Button;

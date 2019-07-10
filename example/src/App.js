@@ -11,7 +11,7 @@ export default class App extends Component {
         <p>  </p>
         <Button size="md" type="border" />
         <p>  </p>
-        <Button size="sm" />
+        <Button size="lg" type="expand" />
         <p>  </p>
         <Button size="lg" />
       </div>
