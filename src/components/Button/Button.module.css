@@ -27,22 +27,19 @@
 /* sizes of button */
 
 .sm {
-    width: 100px;
-    height: 30px;
+    padding: 10px 20px;
     font-size: 15px;
     border-radius: 15px;
 }
 
 .md {
-    width: 200px;
-    height: 40px;
+    padding: 10px 50px;
     font-size: 18px;
     border-radius: 20px;
 }
 
 .lg {
-    width: 400px;
-    height: 40px;
+    padding: 10px 90px;
     font-size: 18px;
     border-radius: 20px;
 }
