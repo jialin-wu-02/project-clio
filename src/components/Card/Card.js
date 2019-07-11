@@ -6,7 +6,7 @@ import CardHead from './CardHead';
 import CardBody from './CardBody';
 
 
-// Card -> Card Heading -> Card Body -> Card Footer
+// Card -> Card Head -> Card Body -> Card Footer
 
 const Card = (props) => {
   return (
