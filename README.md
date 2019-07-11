@@ -12,6 +12,8 @@ npm install --save project-clio
 
 ## Usage
 
+### General
+
 ```jsx
 import React, { Component } from 'react'
 
@@ -21,6 +23,25 @@ class Example extends Component {
   render () {
     return (
       <MyComponent />
+    )
+  }
+}
+```
+### Card
+
+```jsx
+import React, { Component } from 'react'
+
+import MyComponent from 'project-clio'
+
+class ExampleCard extends Component {
+  render () {
+    return (
+      <Card>
+        <H3> Card Title </H3>
+        <R> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus, minus obcaecati, velit magni praesentium voluptatem facilis dolorem facere veniam ipsa in. Assumenda, eum? Quam blanditiis mollitia eveniet sapiente alias! </R>
+        <Button size="md" />
+      </Card>
     )
   }
 }
