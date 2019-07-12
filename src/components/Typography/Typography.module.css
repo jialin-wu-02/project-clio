@@ -2,33 +2,36 @@
     color: #484848;
     font-size: 40px;
     font-weight: 700;
+    /* margin: 0px; */
 }
 
 .H2 {
     color: #484848;
     font-size: 30px;
     font-weight: 700;
+    /* margin: 0px; */
 }
 
 .H3 {
     color: #484848;
     font-size: 27px;
     font-weight: 400;
+    /* margin: 0px; */
 }
 
 .R {
     color: #484848;
-    margin: 25px 0px;
     letter-spacing: 0.5px;
     line-height: 21px;
+    /* margin: 0px; */
 }
 
 .L {
     color: #484848;
-    
+    /* margin: 0px; */
 }
 
 .S {
     color: #484848;
-    
+    /* margin: 0px; */
 }

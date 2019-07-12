@@ -1,12 +1,17 @@
 .Card {
-    margin: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     width: 300px;
     text-align: center;
     background-color: white;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
-    padding: 22px 20px;
     color: grey;
     font-weight: 100;
+    padding: 13px;
+}
+
+.Card > * {
+    margin: 13px;
 }
