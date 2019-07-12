@@ -32,7 +32,7 @@ class Example extends Component {
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'project-clio'
+import Card from 'project-clio'
   
 class ExampleCard extends Component {
   render () {
