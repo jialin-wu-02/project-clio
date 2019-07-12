@@ -2,11 +2,6 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 import styles from './Card.module.css';
-import CardHead from './CardHead';
-import CardBody from './CardBody';
-
-
-// Card -> Card Head -> Card Body -> Card Footer
 
 const Card = (props) => {
   return (
