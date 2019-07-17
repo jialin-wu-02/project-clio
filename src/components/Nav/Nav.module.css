@@ -1,7 +1,7 @@
 .Nav {
     background-color: white;
     overflow: hidden;
-    padding: 5px 60px 0px;
+    padding: 5px 60px 4px;
     width: 100%;
     z-index: 1;
     transition: 0.5s;

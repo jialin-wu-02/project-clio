@@ -11,14 +11,18 @@ export default class App extends Component {
     return (
       <div>
         <Nav> 
-          {/* <Nav.Left> */}
             <Nav.Item href="#"> Home </Nav.Item>
             <Nav.Item href="#"> About </Nav.Item>
             <Nav.Item href="#"> 123 </Nav.Item>
             <Nav.Item href="#"> 123 </Nav.Item>
-          {/* </Nav.Left> */}
         </Nav>
         <p>  </p>
+        <H1> Heading One </H1>
+        <H2> Heading Two </H2>
+        <H3> Heading Three </H3>
+        <L> Large </L>
+        <S> Small </S>
+        <R> Regular </R>
         <Button size="sm" type="border" />
         <p>  </p>
         <Button size="md" type="expand" />
