@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Button, Card, FlipCard, Image, Nav } from 'project-clio'
-import { H1, H2, H3, L, R, S } from 'project-clio'
+import { H1, H2, H3, B, R, S } from 'project-clio'
 
 import styles from './App.module.css';
 import printer from './printer.png'
@@ -20,7 +20,7 @@ export default class App extends Component {
         <H1> Heading One </H1>
         <H2> Heading Two </H2>
         <H3> Heading Three </H3>
-        <L> Large </L>
+        <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
         <Button size="sm" type="border" />

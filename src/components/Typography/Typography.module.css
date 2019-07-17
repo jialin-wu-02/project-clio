@@ -2,36 +2,35 @@
     color: #484848;
     font-size: 40px;
     font-weight: 700;
-    /* margin: 0px; */
 }
 
 .H2 {
     color: #484848;
     font-size: 30px;
     font-weight: 700;
-    /* margin: 0px; */
 }
 
 .H3 {
     color: #484848;
     font-size: 27px;
     font-weight: 400;
-    /* margin: 0px; */
 }
 
 .R {
     color: #484848;
     letter-spacing: 0.5px;
-    line-height: 21px;
-    /* margin: 0px; */
+    font-size: 18px;
 }
 
-.L {
+.B {
     color: #484848;
-    /* margin: 0px; */
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
 }
 
 .S {
     color: #484848;
-    /* margin: 0px; */
+    font-size: 14px;
+    font-weight: 100;
 }

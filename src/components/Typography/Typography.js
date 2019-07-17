@@ -36,10 +36,10 @@ const R = (props) => {
   )
 }
 
-// large fonts
-const L = (props) => {
+// Bold fonts
+const B = (props) => {
   return (
-    <p className={styles.L}> 
+    <p className={styles.B}> 
         {props.children}
     </p>
   )
@@ -61,4 +61,4 @@ const S = (props) => {
 //   color: PropTypes.string
 // }
 
-export { H1, H2, H3, L, R, S };
+export { H1, H2, H3, B, R, S };
