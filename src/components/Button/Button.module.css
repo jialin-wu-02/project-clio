@@ -1,7 +1,6 @@
 /* base of button */
 
 .btn {
-    background-color: #eeeeee;
     border: none;
     transition: all .2s;
     cursor: pointer;
@@ -13,12 +12,12 @@
 }
 
 .btn:hover {
-    background-color: #dddddd;
+    filter: brightness(90%);
     transform: translateY(-8%);
 }
 
 .btn:active {
-    background-color: #cccccc;
+    filter: brightness(80%);
     transform: translateY(-2%);
 }
 

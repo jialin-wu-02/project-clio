@@ -25,11 +25,11 @@ export default class App extends Component {
         <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
-        <Button color={COLOR.BLUE} size="sm" type="border" />
+        <Button color={COLOR.BLUE} size="md" type="border" />
         <p>  </p>
-        <Button size="md" type="expand" />
+        <Button color={COLOR.LIGHT} size="md" type="expand" />
         <p>  </p>
-        <Button size="lg" />
+        <Button color={COLOR.BLUE} size="lg" />
         <p>  </p>
         <Card>
           <H3> Card Title </H3>

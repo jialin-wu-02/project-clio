@@ -1,5 +1,5 @@
 export const COLOR = {
-  BLUE: "blue",
-  LIGHT: "light",
+  BLUE: "rgb(0, 122, 255)",
+  LIGHT: "#eeeeee",
   DARK: "dark"
 }
