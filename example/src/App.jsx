@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Button, Card, FlipCard, Image, Nav } from 'project-clio'
 import { H1, H2, H3, B, R, S } from 'project-clio'
-import { COLOR } from 'project-clio'
+import { COLOR, SIZE } from 'project-clio'
 
 import styles from './App.module.css';
 import printer from './printer.png'
@@ -25,27 +25,27 @@ export default class App extends Component {
         <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
-        <Button color={COLOR.BLUE} size="md" type="border" />
+        <Button content="Button" color={COLOR.BLUE} size={SIZE.MD} type="border" />
         <p>  </p>
-        <Button color={COLOR.LIGHT} size="md" type="expand" />
+        <Button content="Button" color={COLOR.LIGHT} size={SIZE.LG} type="expand" />
         <p>  </p>
-        <Button color={COLOR.BLUE} size="lg" />
+        <Button content="Button" color={COLOR.DARK} size={SIZE.MD} type="border" />
         <p>  </p>
         <Card>
           <H3> Card Title </H3>
           <R> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus, minus obcaecati, velit magni praesentium voluptatem facilis dolorem facere veniam ipsa in. Assumenda, eum? Quam blanditiis mollitia eveniet sapiente alias! </R>
-          <Button size="md" />
+          <Button content="Button" size={SIZE.MD} />
         </Card>
         <p> </p>
         <Card>
           <H3> Card Title </H3>
           <Image src={printer} alt="" width="150px"/>
-          <Button size="md" />
+          <Button content="Button" size={SIZE.MD} />
         </Card>
         <p> </p>
         <Image src={plants} width="80%">
           <H1> HERE IS A TITLE </H1>
-          <Button size="lg"/>
+          <Button content="Button" size={SIZE.MD}/>
         </Image>
         {/* Photo by eberhard grossgasteiger on Unsplash */}
         {/* <FlipCard>
@@ -56,7 +56,7 @@ export default class App extends Component {
           <FlipCard.Back>
             <H3> Card Title Two </H3>
             <R> Lovident non voluptates commodi similique, beatae ipsum delectus exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus, minus obcaecati, velit magni praesentium voluptatem facilis dolorem facere veniam ipsa in. Assumenda, eum? Quam blanditiis mollitia eveniet sapiente alias! </R>
-            <Button size="lg" type="border" />
+            <Button content="Button" size={SIZE.MD} type="border" />
           </FlipCard.Back>
         </FlipCard> */}
         {/* <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */}

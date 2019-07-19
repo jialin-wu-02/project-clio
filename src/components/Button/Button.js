@@ -4,15 +4,17 @@ import Radium from 'radium';
 
 import styles from './Button.module.css';
 
-const Button = ({color, size, type}) => {
+const Button = ({color, size, type, content}) => {
+
   // initialize default color.
   color = color || "#eeeeee";
-  // // assign different styles according to different types of buttons.
-  let colored = {};
+
+  // assign different styles according to different types of buttons.
+  var colored = {};
   if (!type || type === "expand") {
     colored = {
       backgroundColor: color,
-      color: color == "rgb(0, 122, 255)" ? "white" : "black" // checking the font color.
+      color: color == "#eeeeee" ? "#484848" : "white" // checking the font color.
     }
   } else {
     colored = {
@@ -22,43 +24,22 @@ const Button = ({color, size, type}) => {
     }
   }
 
+  // border style, need to do it inline to dynamically change bgc.
+  var additionalHoverStyles = {
+    border: {
+      ":hover": {
+        backgroundColor: color,
+        color: color == "#eeeeee" ? "#484848" : "white" 
+      }
+    }
+  }
+
   let buttonClassName = [styles["btn"], styles[size], styles[type]].join(' ');
   return (
-    <button style={colored} className={buttonClassName}> Submit </button>
+    <button 
+    style={[type=="border" ? additionalHoverStyles.border : null, colored]} 
+    className={buttonClassName}> {content} </button>
   )
-}
-
-// var styles = {
-//   base: {
-//     border: "none",
-//     transition: "all .2s",
-//     cursor: "pointer",
-//     position: "relative",
-//     ":focus": {
-//       outline: "none"
-//     },
-//     ":hover": {
-//       transform: "translateY(-8%)"
-//     },
-//     ":active": {
-//       transform: "translateY(-2%)"
-//     }
-//   },
-//   normal: {
-//     ":hover": {
-//       filter: "brightness(90%)",
-//     },
-//     ":active": {
-//       filter: "brightness(80%)",
-//     }
-    
-//   }
-// }
-
-Button.propType = {
-  type: PropTypes.oneOf(['border', 'expand']),
-  size: PropTypes.oneOf(['sm', 'md', 'lg']),
-  color: PropTypes.string
 }
 
 export default Radium(Button);
