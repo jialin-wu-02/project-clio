@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import { Button, Card, FlipCard, Image, Nav } from 'project-clio'
 import { H1, H2, H3, B, R, S } from 'project-clio'
+import { COLOR } from 'project-clio'
 
 import styles from './App.module.css';
 import printer from './printer.png'
@@ -24,7 +25,7 @@ export default class App extends Component {
         <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
-        <Button size="sm" type="border" />
+        <Button color={COLOR.BLUE} size="sm" type="border" />
         <p>  </p>
         <Button size="md" type="expand" />
         <p>  </p>
