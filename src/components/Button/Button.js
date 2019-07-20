@@ -4,7 +4,7 @@ import Radium from 'radium';
 
 import styles from './Button.module.css';
 
-const Button = ({color, size, type, content}) => {
+const Button = ({style, color, size, type, content}) => {
 
   // default settings:
   color = color || "#eeeeee";
@@ -39,7 +39,7 @@ const Button = ({color, size, type, content}) => {
   let buttonClassName = [styles["btn"], styles[size], styles[type]].join(' ');
   return (
     <button 
-    style={[type=="border" ? additionalHoverStyles.border : null, colored]} 
+    style={[type=="border" ? additionalHoverStyles.border : null, colored, style]} 
     className={buttonClassName}> {content} </button>
   )
 }

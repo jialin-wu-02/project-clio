@@ -5,7 +5,7 @@ import styles from './Typography.module.css';
 
 const H1 = (props) => {
   return (
-    <h1 className={styles.H1}> 
+    <h1 style={props.style} className={styles.H1}> 
         {props.children}
     </h1>
   )
@@ -13,7 +13,7 @@ const H1 = (props) => {
 
 const H2 = (props) => {
   return (
-    <h2 className={styles.H2}> 
+    <h2 style={props.style} className={styles.H2}> 
         {props.children}
     </h2>
   )
@@ -21,7 +21,7 @@ const H2 = (props) => {
 
 const H3 = (props) => {
   return (
-    <h3 className={styles.H3}> 
+    <h3 style={props.style} className={styles.H3}> 
         {props.children}
     </h3>
   )
@@ -30,7 +30,7 @@ const H3 = (props) => {
 // regular fonts
 const R = (props) => {
   return (
-    <p className={styles.R}> 
+    <p style={props.style} className={styles.R}> 
         {props.children}
     </p>
   )
@@ -39,7 +39,7 @@ const R = (props) => {
 // Bold fonts
 const B = (props) => {
   return (
-    <p className={styles.B}> 
+    <p style={props.style} className={styles.B}> 
         {props.children}
     </p>
   )
@@ -48,7 +48,7 @@ const B = (props) => {
 // small fonts
 const S = (props) => {
   return (
-    <p className={styles.S}> 
+    <p style={props.style} className={styles.S}> 
         {props.children}
     </p>
   )

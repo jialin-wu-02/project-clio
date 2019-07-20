@@ -13,7 +13,7 @@ const Nav = (props) => {
 const NavItem = (props) => {
     return (
         <div className={styles.NavItem}>
-            <a className={styles.NavLink} href={props.href}> {props.children} </a>
+            <a style={props.style} className={styles.NavLink} href={props.href}> {props.children} </a>
         </div>
     )
 }
