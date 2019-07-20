@@ -12,11 +12,11 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <Nav> 
+        <Nav>
             <Nav.Item href="#"> Home </Nav.Item>
             <Nav.Item href="#"> About </Nav.Item>
-            <Nav.Item href="#"> 123 </Nav.Item>
-            <Nav.Item href="#"> 123 </Nav.Item>
+            <Nav.Item href="#"> Product </Nav.Item>
+            <Nav.Item href="#"> Contact </Nav.Item>
         </Nav>
         <p>  </p>
         <H1> Heading One </H1>
@@ -27,14 +27,14 @@ export default class App extends Component {
         <R> Regular </R>
         <Button content="Button" color={COLOR.BLUE} size={SIZE.MD} type="border" />
         <p>  </p>
-        <Button content="Button" color={COLOR.LIGHT} size={SIZE.LG} type="expand" />
+        <Button content="Large" color={COLOR.LIGHT} size={SIZE.LG} type="expand" />
         <p>  </p>
         <Button content="Button" color={COLOR.DARK} size={SIZE.MD} type="border" />
         <p>  </p>
         <Card>
           <H3> Card Title </H3>
           <R> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus, minus obcaecati, velit magni praesentium voluptatem facilis dolorem facere veniam ipsa in. Assumenda, eum? Quam blanditiis mollitia eveniet sapiente alias! </R>
-          <Button content="Button" size={SIZE.MD} />
+          <Button content="Button" color={COLOR.DARK} size={SIZE.MD} />
         </Card>
         <p> </p>
         <Card>

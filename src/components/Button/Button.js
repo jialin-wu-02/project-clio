@@ -6,8 +6,10 @@ import styles from './Button.module.css';
 
 const Button = ({color, size, type, content}) => {
 
-  // initialize default color.
+  // default settings:
   color = color || "#eeeeee";
+  size = size || "md"
+  content = content || "Button"
 
   // assign different styles according to different types of buttons.
   var colored = {};
