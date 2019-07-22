@@ -47,6 +47,17 @@ class ExampleCard extends Component {
 }
 ```
 
+## Progress
+* [x] Button
+* [x] Typography
+* [x] Card
+* [x] Image
+* [x] Nav
+* [ ] Checkbox
+* [ ] Carousel
+* [ ] Col & Row Layout
+
+
 ## License
 
 MIT © [jialin-wu-02](https://github.com/jialin-wu-02)

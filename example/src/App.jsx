@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Button, Card, FlipCard, Image, Nav } from 'project-clio'
+import { Button, Card, Checkbox, FlipCard, Image, Nav } from 'project-clio'
 import { H1, H2, H3, B, R, S } from 'project-clio'
 import { COLOR, SIZE } from 'project-clio'
 
@@ -25,6 +25,7 @@ export default class App extends Component {
         <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
+        <Checkbox label="This is a Checkbox."/>
         <Button content="Button" color={COLOR.BLUE} size={SIZE.MD} type="border" />
         <p>  </p>
         <Button content="Large" color={COLOR.LIGHT} size={SIZE.LG} type="expand" />
