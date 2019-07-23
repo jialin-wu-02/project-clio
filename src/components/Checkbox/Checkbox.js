@@ -4,10 +4,11 @@ import styles from './Checkbox.module.css';
 
 const Checkbox = (props) => {
     return (
-        <div className={styles.Checkbox}>
-            <input 
-            type="checkbox" {...props.label} /> 
-               
+        <div className={styles.Container}>
+            <label>
+                <input className={styles.Checkbox} type="checkbox" /> 
+                <span> {props.label} </span>
+            </label>
         </div>
     )
 }
