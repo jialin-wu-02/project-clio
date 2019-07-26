@@ -5,6 +5,7 @@ export { default as Checkbox } from './components/Checkbox/Checkbox.js';
 export { default as FlipCard } from './components/FlipCard/FlipCard.js';
 export { default as Image } from './components/Image/Image.js';
 export { default as Nav } from './components/Nav/Nav.js';
+export { default as Carousel } from './components/Carousel/Carousel'
 export { H1, H2, H3, R, B, S } from './components/Typography/Typography.js';
 
 // TYPES

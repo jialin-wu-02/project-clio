@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Button, Card, Checkbox, FlipCard, Image, Nav } from 'project-clio'
+import { Button, Card, Checkbox, FlipCard, Image, Nav, Carousel } from 'project-clio'
 import { H1, H2, H3, B, R, S } from 'project-clio'
 import { COLOR, SIZE } from 'project-clio'
 
@@ -44,10 +44,11 @@ export default class App extends Component {
           <Button content="Button" size={SIZE.MD} />
         </Card>
         <p> </p>
-        <Image src={plants} width="80%">
+        <Carousel></Carousel>
+        {/* <Image src={plants} width="80%">
           <H1> HERE IS A TITLE </H1>
           <Button content="Button" size={SIZE.MD}/>
-        </Image>
+        </Image> */}
         {/* Photo by eberhard grossgasteiger on Unsplash */}
         {/* <FlipCard>
           <FlipCard.Front>
