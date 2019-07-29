@@ -44,7 +44,18 @@ export default class App extends Component {
           <Button content="Button" size={SIZE.MD} />
         </Card>
         <p> </p>
-        <Carousel></Carousel>
+        <Carousel>
+          <Carousel.Slide>
+            <H3> Slide Title 1 </H3>
+            <Image src={printer} alt="" width="150px"/>
+            <Button content="Button" size={SIZE.MD} />
+          </Carousel.Slide>
+          <Carousel.Slide>
+            <H3> Slide Title 2 </H3>
+            <Image src={printer} alt="" width="150px"/>
+            <Button content="Button" size={SIZE.MD} />
+          </Carousel.Slide>
+        </Carousel>
         {/* <Image src={plants} width="80%">
           <H1> HERE IS A TITLE </H1>
           <Button content="Button" size={SIZE.MD}/>
