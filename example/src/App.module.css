@@ -1,9 +1,10 @@
-/* .main {
-
+.main {
+    margin: 10px;
 }
 
-.container {
-    display: block;
-    background-color: black;
-    width: 500px;
-} */
+.flex-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

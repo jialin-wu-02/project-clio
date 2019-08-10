@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-import { Button, Card, Checkbox, FlipCard, Image, Nav, Carousel } from 'project-clio'
+import { Button, Card, HoverCard, Checkbox, FlipCard, Image, Nav, Carousel } from 'project-clio'
 import { H1, H2, H3, B, R, S } from 'project-clio'
 import { COLOR, SIZE } from 'project-clio'
 
-import styles from './App.module.css';
+import './App.module.css';
 import printer from './printer.png'
 import plants from './plants.jpg'
 
@@ -25,7 +25,7 @@ export default class App extends Component {
         <B> Bold </B>
         <S> Small </S>
         <R> Regular </R>
-        <Checkbox label="This is a Checkbox."/>
+        {/* <Checkbox label="This is a Checkbox."/> */}
         <Button content="Button" color={COLOR.BLUE} size={SIZE.MD} type="border" />
         <p>  </p>
         <Button content="Large" color={COLOR.LIGHT} size={SIZE.LG} type="expand" />
@@ -38,13 +38,34 @@ export default class App extends Component {
           <Button content="Button" color={COLOR.DARK} size={SIZE.MD} />
         </Card>
         <p> </p>
+        <div className="flex-container">
         <Card>
           <H3> Card Title </H3>
           <Image src={printer} alt="" width="150px"/>
           <Button content="Button" size={SIZE.MD} />
         </Card>
+        <Card>
+          <H3> Card Title </H3>
+          <Image src={printer} alt="" width="150px"/>
+          <Button content="Button" size={SIZE.MD} />
+        </Card>
+        <Card>
+          <H3> Card Title </H3>
+          <Image src={printer} alt="" width="150px"/>
+          <Button content="Button" size={SIZE.MD} />
+        </Card>
+        </div>
+
         <p> </p>
-        <Carousel>
+        <HoverCard>
+          <HoverCard.Front> 
+            <Image src={printer} alt="" width="150px"/>
+          </HoverCard.Front>
+          <HoverCard.Back>
+            <R> lorem lorem hover card. lorem lorem hover card. lorem lorem hover card. </R>
+          </HoverCard.Back>
+        </HoverCard>
+        {/* <Carousel>
           <Carousel.Slide>
             <H3> Slide Title 1 </H3>
             <Image src={printer} alt="" width="150px"/>
@@ -55,7 +76,7 @@ export default class App extends Component {
             <Image src={printer} alt="" width="150px"/>
             <Button content="Button" size={SIZE.MD} />
           </Carousel.Slide>
-        </Carousel>
+        </Carousel> */}
         {/* <Image src={plants} width="80%">
           <H1> HERE IS A TITLE </H1>
           <Button content="Button" size={SIZE.MD}/>

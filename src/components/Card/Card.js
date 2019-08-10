@@ -11,10 +11,4 @@ const Card = (props) => {
   )
 }
 
-// Card.propType = {
-//   type: PropTypes.oneOf(['border', 'expand']),
-//   size: PropTypes.oneOf(['sm', 'md', 'lg']),
-//   color: PropTypes.string
-// }
-
 export default Card;
